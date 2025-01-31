@@ -23,6 +23,20 @@
       padding: 20px;
     }
 
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 20px 0;
+    }
+
+    .logo-image {
+      max-width: 400px;
+      height: auto;
+      display: block;
+    }
+
     h1 {
       font-size: 3rem;
       margin-bottom: 20px;
@@ -85,7 +99,10 @@
 </head>
 <body>
   <div class="container">
-    <h1>RememberMe</h1>
+    <!-- <h1>RememberMe</h1> -->
+    <div class="logo-container">
+      <img src="public/logo_only.png" alt="RememberMe" class="logo-image">
+    </div>
     <p>We're building something amazing to help you leave a legacy. Stay tuned for the launch!</p>
     <div class="email-form">
       <input type="email" id="emailInput" placeholder="Enter your email address" required>
